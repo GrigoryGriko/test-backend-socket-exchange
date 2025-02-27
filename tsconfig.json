@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"rootDir": "./src",
+		"paths": {
+			"#configs*": ["./Configs*"],
+			"#controllers*": ["./Controllers/*"],
+			"#middleware*": ["./Middleware/*"],
+			"#services*": ["./Services/*"],
+			"#database*": ["./Database/*"],
+			"#models*": ["./Models*"],
+			"#utils*": ["./Utils/*"],
+		},
+		"target": "ES2022",
+		"module": "ES2020",
+		"lib": ["ES2020"],
+		"moduleResolution": "node",
+		"outDir": "Build",
+		"allowSyntheticDefaultImports": true,
+		"importHelpers": true,
+		"alwaysStrict": true,
+		"sourceMap": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noErrorTruncation": true,
+		"noImplicitAny": false,
+		"noImplicitThis": false,
+		"strictNullChecks": false,
+		"resolveJsonModule": true
+	},
+	"include": ["src/**/*"]
+}
